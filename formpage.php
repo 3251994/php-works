@@ -98,6 +98,12 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
+    $myfile = fopen("testfile.txt", "w");
+    $txt = "anitson\n";
+fwrite($myfile, $txt);
+$txt = "tt\n";
+fwrite($myfile, $txt);
+fclose($myfile);
 ?>
 </center>
 
