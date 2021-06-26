@@ -5,8 +5,8 @@
 .error {color: #FF0000;}
 </style>
 </head>
-<body>  
-
+<body bgcolor="yellow">  
+<center>
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -99,6 +99,8 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
+</center>
+
 
 </body>
 </html>
